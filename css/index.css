@@ -1,0 +1,198 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+body{
+	background: #4b70db;
+}
+main{
+  display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+}
+.linha{
+	padding: 0.5px;
+	background: #e4e4e4;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+h3{
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.container{
+  width:1200px;
+  background: white;
+  display:flex;
+}
+.window{
+	margin: 10px 0px;
+  border-radius: 5px;
+}
+.form{
+	padding: 10px 75px;
+	height: 600;
+  width: 748px;
+  text-align: center;
+}
+.image{
+  border-radius:5px 0px 0px 5px;
+  height: 600px;
+  width: 452px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+main div a{
+	color: #4b70db;
+	text-decoration: none;
+	font-size: 12px;
+}
+main div a:hover{
+	color: black;
+}
+input{
+  width: 100%;
+  border: solid 1px #e4e4e4;
+  padding: 12px 6px 12px 6px;
+  border-radius: 50px;
+	font-size:13px;
+	outline: 0;
+}
+input:focus{
+	border: solid 1px silver;
+}
+.buttonAccount{
+	background: #4e73de;
+	color: white;
+	cursor: pointer;
+}
+.buttonAccount:hover{
+	background: #3453af;
+	color: white;
+}
+
+.buttonGoogle{
+	background: #ea4235;
+	color: white;
+	cursor: pointer;
+}
+.buttonGoogle:hover{
+	background: #b32c22;
+	color: white;
+}
+
+.buttonFace{
+	background: #3b5998;
+	color: white;
+	cursor: pointer;
+}
+.buttonFace:hover{
+	background: #293f6f;
+	color: white;
+}
+
+
+/*--------------------------------------------------------------*/
+.cf-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -5px;
+	margin-left: -5px;
+}
+.cf-col-1, .cf-col-2, .cf-col-3, .cf-col-4, .cf-col-5, .cf-col-6, .cf-col-7, .cf-col-8, .cf-col-9, .cf-col-10, .cf-col-11, .cf-col-12 {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 5px;
+  padding-left: 5px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+@media ( min-width: 576px ) {
+	.cf-col-1 {
+		-ms-flex: 0 0 8.333333%;
+		flex: 0 0 8.333333%;
+		max-width: 8.333333%;
+	}
+	.cf-push-1 { margin-left: 8.333333%; }
+	.cf-col-2 {
+		-ms-flex: 0 0 16.66667%;
+		flex: 0 0 16.66667%;
+		max-width: 16.66667%;
+	}
+	.cf-push-2 { margin-left: 16.66667%; }
+	.cf-col-3 {
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.cf-push-3 { margin-left: 25%; }
+	.cf-col-4 {
+		-ms-flex: 0 0 33.33333%;
+		flex: 0 0 33.33333%;
+		max-width: 33.33333%;
+	}
+	.cf-push-4 { margin-left: 33.33333%; }
+	.cf-col-5 {
+		-ms-flex: 0 0 41.66667%;
+		flex: 0 0 41.66667%;
+		max-width: 41.66667%;
+	}
+	.cf-push-5 { margin-left: 41.66667%; }
+	.cf-col-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.cf-push-6 { margin-left: 50%; }
+	.cf-col-7 {
+		-ms-flex: 0 0 58.33333%;
+		flex: 0 0 58.33333%;
+		max-width: 58.33333%;
+	}
+	.cf-push-7 { margin-left: 58.33333%; }
+	.cf-col-8 {
+		-ms-flex: 0 0 66.66667%;
+		flex: 0 0 66.66667%;
+		max-width: 66.66667%;
+	}
+	.cf-push-8 { margin-left: 66.66667%; }
+	.cf-col-9 {
+		-ms-flex: 0 0 75%;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.cf-push-9 { margin-left: 75%; }
+	.cf-col-10 {
+		-ms-flex: 0 0 83.33333%;
+		flex: 0 0 83.33333%;
+		max-width: 83.33333%;
+	}
+	.cf-push-10 { margin-left: 83.33333%; }
+	.cf-col-11 {
+		-ms-flex: 0 0 91.66667%;
+		flex: 0 0 91.66667%;
+		max-width: 91.66667%;
+	}
+	.cf-push-11 { margin-left: 91.66667%; }
+	.cf-col-12 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
