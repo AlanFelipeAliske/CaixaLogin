@@ -1,3 +1,12 @@
+:root{
+	--body: #3e64d3;
+	--text: #3c3a45;
+	--button-google: #ea4235;
+	--button-facebook: #3b5998;
+	--button-account: #4e73de;
+
+}
+
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
@@ -6,7 +15,7 @@
 	transition: 0.3s;
 }
 body{
-	background: #4b70db;
+	background: var(--body);
 }
 main{
   display: flex;
@@ -18,15 +27,16 @@ main{
 	padding: 0.5px;
 	background: #e4e4e4;
 	width: 100%;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 h3{
 	font-size: 30px;
-	font-weight: 500;
-	margin-bottom: 10px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: var(--text);
 }
 .container{
   width:1200px;
@@ -38,6 +48,7 @@ h3{
   border-radius: 5px;
 }
 .form{
+	margin-top: 50px;
 	padding: 10px 75px;
 	height: 600;
   width: 748px;
@@ -75,7 +86,7 @@ input:focus{
 	border: solid 1px silver;
 }
 .buttonAccount{
-	background: #4e73de;
+	background: var(--button-account);
 	color: white;
 	cursor: pointer;
 }
@@ -85,7 +96,7 @@ input:focus{
 }
 
 .buttonGoogle{
-	background: #ea4235;
+	background: var(--button-google);
 	color: white;
 	cursor: pointer;
 }
@@ -95,7 +106,7 @@ input:focus{
 }
 
 .buttonFace{
-	background: #3b5998;
+	background: var(--button-facebook);
 	color: white;
 	cursor: pointer;
 }
@@ -104,6 +115,33 @@ input:focus{
 	color: white;
 }
 
+
+@media (max-width:1200px){
+	.container{
+		width: 1000px;
+	}
+	.image{
+		height: 538px;
+    width: 535px;
+	}
+	.form{
+		margin-top: 30px;
+		padding: 10px 60px;
+	}
+}
+@media (max-width:1024px){
+	.container{
+		width: 800px;
+	}
+	.image{
+		height: 470px;
+	}
+	.form{
+		margin-top: 0px;
+		padding: 10px 20px;
+		width: 654px;
+	}
+}
 
 /*--------------------------------------------------------------*/
 .cf-container {
@@ -120,10 +158,10 @@ input:focus{
 	min-height: 1px;
 	padding-right: 5px;
   padding-left: 5px;
-  margin-top:10px;
-  margin-bottom:10px;
+  margin-top:5px;
+  margin-bottom:5px;
 }
-@media ( min-width: 576px ) {
+@media ( min-width: 812px ) {
 	.cf-col-1 {
 		-ms-flex: 0 0 8.333333%;
 		flex: 0 0 8.333333%;
