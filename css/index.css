@@ -4,9 +4,7 @@
 	--button-google: #ea4235;
 	--button-facebook: #3b5998;
 	--button-account: #4e73de;
-
 }
-
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
@@ -149,6 +147,9 @@ input:focus{
 	}
 }
 @media (max-width: 812px){
+	main div a{
+		font-size: 10px;
+	}
 	.window{
 		margin: 30px 10px;
 		border-radius: 5px;
@@ -165,11 +166,18 @@ input:focus{
 		padding: 5px;
 	}
 	img{
-		border-radius: 10px;
+		border-radius: 5px;
 	}
 }
 @media (max-width:600px){
-	
+	input{
+		width: 100%;
+		border: solid 1px #e4e4e4;
+		padding: 10px 5px 10px 5px;
+		border-radius: 50px;
+		font-size:12px;
+		outline: 0;
+	}
 }
 /*--------------------------------------------------------------*/
 .cf-container {
