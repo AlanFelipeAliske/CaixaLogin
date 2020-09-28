@@ -78,7 +78,7 @@ main div a{
 main div a:hover{
 	color: black;
 }
-input{
+button, input{
   width: 100%;
   border: solid 1px #e4e4e4;
   padding: 12px 6px 12px 6px;
